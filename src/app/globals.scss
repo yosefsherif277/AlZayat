@@ -1,0 +1,29 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    font-family: 'Poppins', 'Noto Kufi Arabic', sans-serif;
+    position: relative;
+}
+h1, h2 {
+    font-family: 'Saira', 'Noto Kufi Arabic', sans-serif;
+}
+ul {
+    list-style: none;   
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding: 0 2rem;
+    margin: auto;
+}
+.text-primary {
+    color: #20c997;
+}
