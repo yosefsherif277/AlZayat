@@ -8,9 +8,9 @@
 }
 
 body {
-  overflow: hidden;
   font-family: "Poppins", "Noto Kufi Arabic", sans-serif;
   position: relative;
+  overflow-x: hidden;
 }
 
 h1, h2 {

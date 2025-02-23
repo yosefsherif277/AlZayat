@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 export const metadata = {
   title: "DR.Mohammed Hasan Al",
@@ -18,7 +19,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header /> 
-        {children}
+          {children}
+        <Footer />
       </body>
     </html>
   );
